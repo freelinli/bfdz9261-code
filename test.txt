@@ -1,0 +1,75 @@
+//controller 
+
+
+while(1)
+	{
+
+		Buf_Controller_Send[5] = 0x01; // 01 水泵
+		Buf_Controller_Send[7] = 0x02; // 02 风机
+		Buf_Controller_Send[9] = 0x03; // 03 天窗
+
+		if(j%2 == 0)
+		{	
+			Buf_Controller_Send[6] = 0x22; // 0x22 on 0x33 off
+			Buf_Controller_Send[8] = 0x22; // 0x22 on 0x33 off
+			Buf_Controller_Send[10] = 0x22; // 0x22 on 0x33 off	
+		}
+		else
+		{
+			Buf_Controller_Send[6] = 0x33; // 0x22 on 0x33 off
+			Buf_Controller_Send[8] = 0x33; // 0x22 on 0x33 off
+			Buf_Controller_Send[10] = 0x33; // 0x22 on 0x33 off
+		}
+
+/*
+		if(j%3 == 0)
+		{
+			Buf_Controller_Send[11] = 0x04; //外遮阳网开
+			Buf_Controller_Send[12] = 0x22;			
+
+		}else 	if(j%3 == 1)
+		{
+			Buf_Controller_Send[11] = 0x04; //外遮阳网暂停
+			Buf_Controller_Send[12] = 0x33;		
+
+		}else if(j%3 == 2)
+		{
+			Buf_Controller_Send[11] = 0x05; //外遮阳网关
+			Buf_Controller_Send[12] = 0x22;		
+		}
+*/
+
+		Buf_Controller_Send[4] = 0x06;
+
+		temp = CRC16_Change(Buf_Controller_Send, 5 + Buf_Controller_Send[4]);
+		Buf_Controller_Send[5 + Buf_Controller_Send[4]] = (temp&0x0000ff00)>>8;
+		Buf_Controller_Send[6 + Buf_Controller_Send[4]] = (temp&0x000000ff);
+		Buf_Controller_Send[7 + Buf_Controller_Send[4]] = 0xbf;
+
+
+		write(fd,Buf_Controller_Send,strlen(Buf_Controller_Send));
+
+		memset(Buf_Recv,0,sizeof(Buf_Recv));	
+		nread = read(fd, Buf_Recv, sizeof(Buf_Recv));//读串口
+		if (nread > 0){
+			LOG_DEBUG(TAG,"DATALen=%d\n",nread); 
+
+			for(i = 0; i < nread; i++)
+				printf("%02x ", Buf_Recv[i]);
+			printf("\r\n");
+
+			temp = CRC16_Change(Buf_Recv, 5 + Buf_Recv[4]);
+
+			if(	(((temp&0x0000ff00)>>8) == Buf_Recv[5 + Buf_Recv[4]])	&&  ((temp&0x000000ff) == Buf_Recv[6 + Buf_Recv[4]]) )
+			{
+				LOG_DEBUG(TAG, "DATA is perfect, crc16 ok\r\n"); 
+			}else{
+				LOG_ERROR(TAG, "DATA is error because of crc16\r\n"); 
+			}
+
+		}
+		sleep(4);
+		j++;
+
+	}
+

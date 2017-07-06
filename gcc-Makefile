@@ -1,0 +1,14 @@
+OBJ=a.out
+
+SOURCE= main.c log.c tty.c crc16.c json_function.c cJSON.c task_ttys1_zigbee_dev.c task_ttys2_dtu_web.c sqlite3.c launcher.c
+#CROSS_COMPILE=arm-none-linux-gnueabi-
+CC := $(CROSS_COMPILE)gcc
+ALL:
+	$(CC) $(SOURCE) -o $(OBJ)  -I /usr/local/include/libxml2/ -L /usr/local/lib -lxml2 -lz  -lm  -lpthread -lsqlite3
+
+.PHONY:clean
+
+lanucher:
+	$(CC) launcher.c log.c -o launcher 
+clean:
+	rm -rf $(OBJ) launcher

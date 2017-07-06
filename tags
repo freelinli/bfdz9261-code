@@ -1,0 +1,297 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ADD	sqlite3.c	/^	ADD,$/;"	e	enum:__anon3	file:
+AUTO_SEND_TO_WEB	task_ttys1_zigbee_dev.c	31;"	d	file:
+BUF_COLLECTOR_TYPE	task_ttys1_zigbee_dev.c	/^	BUF_COLLECTOR_TYPE =0,$/;"	e	enum:__anon4	file:
+BUF_CONTROLLER_TYPE	task_ttys1_zigbee_dev.c	/^	BUF_CONTROLLER_TYPE$/;"	e	enum:__anon4	file:
+BUF_TRANSFORMER_TYPE	task_ttys1_zigbee_dev.c	/^	BUF_TRANSFORMER_TYPE,$/;"	e	enum:__anon4	file:
+Buf_Recv	task_ttys1_zigbee_dev.c	/^unsigned char Buf_Recv[512];$/;"	v
+Buf_Recv	task_ttys2_dtu_web.c	/^unsigned char Buf_Recv[512];$/;"	v
+Buf_Send	task_ttys1_zigbee_dev.c	/^unsigned char Buf_Send[32] = {0};$/;"	v
+Buf_Send	task_ttys2_dtu_web.h	/^	unsigned char Buf_Send[512];$/;"	m	union:__anon1
+Buf_Send_WebData	task_ttys2_dtu_web.h	/^		unsigned char Buf_Send_WebData[506];$/;"	m	struct:__anon1::__anon2
+CC	Makefile	/^CC := $(CROSS_COMPILE)gcc$/;"	m
+CHANGE	sqlite3.c	/^	CHANGE,$/;"	e	enum:__anon3	file:
+CMD_ADJUSTTIME	common.h	13;"	d
+CMD_CLEAR_ALLDEV	common.h	39;"	d
+CMD_CONTROL_RELAY	common.h	12;"	d
+CMD_DEL_CURRDATA	common.h	15;"	d
+CMD_DEL_DPCONTROL	common.h	29;"	d
+CMD_DEL_DPCONTROLV3	common.h	32;"	d
+CMD_DEL_DPINFO	common.h	24;"	d
+CMD_DEL_PARAM	common.h	16;"	d
+CMD_END	common.h	7;"	d
+CMD_GET_DPCONTROL	common.h	27;"	d
+CMD_GET_DPCONTROLV3	common.h	28;"	d
+CMD_GET_DPINFO	common.h	23;"	d
+CMD_GET_IPANDPORT	common.h	38;"	d
+CMD_GET_MENXIAN	common.h	20;"	d
+CMD_GET_MENXIANV3	common.h	40;"	d
+CMD_GET_SQLITE_DATA	common.h	41;"	d
+CMD_HEAD0	common.h	5;"	d
+CMD_HEAD1	common.h	6;"	d
+CMD_QUIT	common.h	35;"	d
+CMD_READ_CAIJIQI	common.h	10;"	d
+CMD_READ_HUGANQI	common.h	11;"	d
+CMD_READ_VER	common.h	17;"	d
+CMD_RELAODPARAM	common.h	34;"	d
+CMD_RELOADPARAM	common.h	14;"	d
+CMD_SET_DEVINFO	common.h	30;"	d
+CMD_SET_DPCONTROL	common.h	26;"	d
+CMD_SET_DPCONTROLV3	common.h	31;"	d
+CMD_SET_DPINFO	common.h	22;"	d
+CMD_SET_IPANDPORT	common.h	37;"	d
+CMD_SET_MENXIAN	common.h	19;"	d
+CMD_SET_VER	common.h	18;"	d
+COLLECTOR	task_ttys1_zigbee_dev.c	29;"	d	file:
+COMMON_H	common.h	2;"	d
+CONTENT_URL_MAX	launcher.c	36;"	d	file:
+CONTROLLER	task_ttys1_zigbee_dev.c	28;"	d	file:
+CRC16_Change	crc16.c	/^UINT CRC16_Change(UCHAR *puchMsg, UINT usDataLen)$/;"	f
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE=arm-none-linux-gnueabi-$/;"	m
+Create_Pkgs	json_function.c	/^char  Create_Pkgs(cJSON * JsonRoot1)$/;"	f
+Create_Sharemem_Json	json_function.c	/^char Create_Sharemem_Json(char *buff, int len)$/;"	f
+DEL	sqlite3.c	/^	DEL,$/;"	e	enum:__anon3	file:
+ERROR_CTRLID_TOOBIG	common.h	58;"	d
+ERROR_DEL_NOT_FOUND_CTRLID	common.h	65;"	d
+ERROR_DEVCOUNT_TOOBIG	common.h	59;"	d
+ERROR_LOADXML	common.h	57;"	d
+ERROR_MESSAGE_LENGTH	common.h	67;"	d
+ERROR_MESSAGE_TOOLONG	common.h	66;"	d
+ERROR_NOT_CTRLID	common.h	62;"	d
+ERROR_NOT_FOUND_CTRLID	common.h	63;"	d
+ERROR_NOT_FOUND_NODE	common.h	56;"	d
+ERROR_NOT_XML	common.h	55;"	d
+ERROR_NO_MESSAGE	common.h	61;"	d
+ERROR_SAVE_CONFIG	common.h	60;"	d
+ERROR_SUCCESS	common.h	53;"	d
+GetJsonObject	json_function.c	/^cJSON* GetJsonObject(char* fileName)$/;"	f
+GetValueNumber	json_function.c	/^char  GetValueNumber(cJSON* json,int id, char* name, int *number)$/;"	f
+GetValueString	json_function.c	/^char  GetValueString(cJSON* json,int id, char* name, char* param)$/;"	f
+Get_Collecter_Json_Data	json_function.c	/^char Get_Collecter_Json_Data(unsigned char *buf, int *len , int * collectorid)$/;"	f
+Get_Collecter_glsen_data	json_function.c	/^int Get_Collecter_glsen_data(int id,int glsen)$/;"	f
+Get_Collecter_id	task_ttys1_zigbee_dev.c	/^int Get_Collecter_id(cJSON *jsonroot, int a6, int glsen, int *max, int *min)$/;"	f
+Get_Controller_Json_Data	json_function.c	/^char Get_Controller_Json_Data(unsigned char *buf, int *len , int * controllerid)$/;"	f
+Get_Transformer_Json_Data	json_function.c	/^char Get_Transformer_Json_Data(unsigned char *buf, int * len)$/;"	f
+JSON_CONFIG_FILE	json_function.h	12;"	d
+LOG_DEBUG	log.h	33;"	d
+LOG_DST_FILE	log.h	38;"	d
+LOG_DST_TERM	log.h	36;"	d
+LOG_ERROR	log.h	31;"	d
+LOG_FILE_SIZE_LIMIT	log.c	15;"	d	file:
+LOG_H	log.h	2;"	d
+LOG_INFO	log.h	32;"	d
+LOG_LEVEL_DEBUG	log.h	/^	LOG_LEVEL_DEBUG,$/;"	e	enum:log_level
+LOG_LEVEL_ERROR	log.h	/^	LOG_LEVEL_ERROR = 0,$/;"	e	enum:log_level
+LOG_LEVEL_INFO	log.h	/^	LOG_LEVEL_INFO,$/;"	e	enum:log_level
+MSEC_PER_SEC	task_ttys1_zigbee_dev.c	58;"	d	file:
+NSEC_PER_SEC	task_ttys1_zigbee_dev.c	60;"	d	file:
+NSEC_PER_USEC	task_ttys1_zigbee_dev.c	61;"	d	file:
+OBJ	Makefile	/^OBJ=a.out$/;"	m
+PARAMCODE_CLOSE	common.h	46;"	d
+PARAMCODE_DIANCIFA_DUANKAI	common.h	49;"	d
+PARAMCODE_DIANCIFA_JIETONG	common.h	48;"	d
+PARAMCODE_PAUSE	common.h	47;"	d
+PARAMCODE_START	common.h	45;"	d
+QUIT	sqlite3.c	/^	QUIT,$/;"	e	enum:__anon3	file:
+Read_Caijiqi_From_Json	json_function.c	/^char Read_Caijiqi_From_Json(unsigned char collectorid, char (buf[]), int *len)$/;"	f
+Read_Huganqi_From_Json	json_function.c	/^char Read_Huganqi_From_Json(unsigned char collectorid, char (buf[]), int *len)$/;"	f
+Recv_Function	task_ttys2_dtu_web.c	/^int Recv_Function(int fd_ttys2, unsigned char buf[], int len)$/;"	f
+SEEK	sqlite3.c	/^	SEEK = 1,$/;"	e	enum:__anon3	file:
+SHARE_MEM_FIEL	json_function.h	14;"	d
+SLEEP_TIME_1	task_ttys1_zigbee_dev.c	54;"	d	file:
+SOURCE	Makefile	/^SOURCE= main.c log.c tty.c crc16.c json_function.c cJSON.c task_ttys1_zigbee_dev.c task_ttys2_dtu_web.c launcher.c sqlite3.c$/;"	m
+SQLITE_FILE	sqlite3.c	84;"	d	file:
+SaveJsonToFile	json_function.c	/^void SaveJsonToFile(cJSON *json, const char* file)$/;"	f
+Save_Control_To_Json	json_function.c	/^char Save_Control_To_Json(unsigned char collectorid, char *buf, int len)$/;"	f
+Send_Function	task_ttys1_zigbee_dev.c	/^int Send_Function(int fd,int id, unsigned char Buf_Send_Type, unsigned char buf[], int len)$/;"	f
+Send_Web_All_Data	task_ttys2_dtu_web.h	/^}Send_Web_All_Data;$/;"	v	typeref:union:__anon1
+TAG	json_function.c	/^static const char TAG[] = "Json_Function";$/;"	v	file:
+TAG	launcher.c	/^static const char TAG[] = "Launcher";$/;"	v	file:
+TAG	main.c	/^static const char TAG[] = "Main";$/;"	v	file:
+TAG	sqlite3.c	/^static const char TAG[] = "Sqlite";$/;"	v	file:
+TAG	task_ttys1_zigbee_dev.c	/^static const char TAG[] = "Task_TTYS1_Zigbee_Dev";$/;"	v	file:
+TAG	task_ttys2_dtu_web.c	/^static const char TAG[] = "Task_TTYS2_Dtu_Web";$/;"	v	file:
+TRANSFORMER	task_ttys1_zigbee_dev.c	30;"	d	file:
+Task_TTYS1_DEV	json_function.h	13;"	d
+Task_TTYS1_Zigbee_Dev	task_ttys1_zigbee_dev.c	/^int Task_TTYS1_Zigbee_Dev(void)$/;"	f
+Task_TTYS2_DTU	json_function.h	11;"	d
+Task_TTYS2_Dtu_Web	task_ttys2_dtu_web.c	/^int Task_TTYS2_Dtu_Web(void)$/;"	f
+Task_launcher	launcher.c	/^int Task_launcher(void)$/;"	f
+UCHAR	crc16.h	5;"	d
+UINT	crc16.h	6;"	d
+ULONG	crc16.h	7;"	d
+USEC_PER_SEC	task_ttys1_zigbee_dev.c	59;"	d	file:
+VERSION	main.c	13;"	d	file:
+__CRC16_H_	crc16.h	2;"	d
+__JSON_FUNCTION__	json_function.h	4;"	d
+__TASK_TTYS1_ZIGBEE_DEV_H__	task_ttys1_zigbee_dev.h	2;"	d
+__TASK_TTYS2_DTU_WEB_H__	task_ttys2_dtu_web.h	2;"	d
+__TTY_H_	tty.h	2;"	d
+all	sqlite3.c	/^char all[320] = {'\\0'}, time_all[24] = {'\\0'}, data[300] = {'\\0'};$/;"	v
+auto_control_dev	task_ttys1_zigbee_dev.c	/^void  auto_control_dev(void)$/;"	f
+buf_all_data	task_ttys2_dtu_web.h	/^	}buf_all_data;$/;"	m	union:__anon1	typeref:struct:__anon1::__anon2
+buf_control_dev_by_time	task_ttys1_zigbee_dev.c	/^unsigned char buf_control_dev_by_time[32][6] = {0}; \/\/ 32 * 6 be sure unsigned char todo $/;"	v
+cJSON	cJSON.h	/^typedef struct cJSON {$/;"	s
+cJSON	cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddBoolToObject	cJSON.h	134;"	d
+cJSON_AddFalseToObject	cJSON.h	133;"	d
+cJSON_AddItemReferenceToArray	cJSON.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	cJSON.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemToArray	cJSON.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						$/;"	f
+cJSON_AddItemToObject	cJSON.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddNullToObject	cJSON.h	131;"	d
+cJSON_AddNumberToObject	cJSON.h	135;"	d
+cJSON_AddStringToObject	cJSON.h	136;"	d
+cJSON_AddTrueToObject	cJSON.h	132;"	d
+cJSON_Array	cJSON.h	39;"	d
+cJSON_Change_IntNumber	json_function.c	/^int cJSON_Change_IntNumber(cJSON *json, const char *key, int value)$/;"	f
+cJSON_CreateArray	cJSON.c	/^cJSON *cJSON_CreateArray(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateBool	cJSON.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateDoubleArray	cJSON.c	/^cJSON *cJSON_CreateDoubleArray(const double *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFalse	cJSON.c	/^cJSON *cJSON_CreateFalse(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFloatArray	cJSON.c	/^cJSON *cJSON_CreateFloatArray(const float *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	cJSON.c	/^cJSON *cJSON_CreateIntArray(const int *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateNull	cJSON.c	/^cJSON *cJSON_CreateNull(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNumber	cJSON.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateObject	cJSON.c	/^cJSON *cJSON_CreateObject(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateString	cJSON.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateStringArray	cJSON.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateTrue	cJSON.c	/^cJSON *cJSON_CreateTrue(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_Delete	cJSON.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_DeleteItemFromArray	cJSON.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromObject	cJSON.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DetachItemFromArray	cJSON.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromObject	cJSON.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_Duplicate	cJSON.c	/^cJSON *cJSON_Duplicate(cJSON *item,int recurse)$/;"	f
+cJSON_False	cJSON.h	34;"	d
+cJSON_GetArrayItem	cJSON.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArraySize	cJSON.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetErrorPtr	cJSON.c	/^const char *cJSON_GetErrorPtr(void) {return ep;}$/;"	f
+cJSON_GetObjectItem	cJSON.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_Get_ST_ET_time	json_function.c	/^long  cJSON_Get_ST_ET_time(cJSON *jsonroot, const char *key)$/;"	f
+cJSON_Hooks	cJSON.h	/^typedef struct cJSON_Hooks {$/;"	s
+cJSON_Hooks	cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_IsReference	cJSON.h	42;"	d
+cJSON_Minify	cJSON.c	/^void cJSON_Minify(char *json)$/;"	f
+cJSON_NULL	cJSON.h	36;"	d
+cJSON_New_Item	cJSON.c	/^static cJSON *cJSON_New_Item(void)$/;"	f	file:
+cJSON_Number	cJSON.h	37;"	d
+cJSON_Object	cJSON.h	40;"	d
+cJSON_Parse	cJSON.c	/^cJSON *cJSON_Parse(const char *value) {return cJSON_ParseWithOpts(value,0,0);}$/;"	f
+cJSON_ParseWithOpts	cJSON.c	/^cJSON *cJSON_ParseWithOpts(const char *value,const char **return_parse_end,int require_null_terminated)$/;"	f
+cJSON_Print	cJSON.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1);}$/;"	f
+cJSON_PrintUnformatted	cJSON.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0);}$/;"	f
+cJSON_ReplaceItemInArray	cJSON.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInObject	cJSON.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){if(newitem->string) cJSON_free(newitem->string);newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_SetIntValue	cJSON.h	139;"	d
+cJSON_String	cJSON.h	38;"	d
+cJSON_True	cJSON.h	35;"	d
+cJSON__h	cJSON.h	24;"	d
+cJSON_free	cJSON.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_malloc	cJSON.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_strcasecmp	cJSON.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strdup	cJSON.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+callback	sqlite3.c	/^int callback(void *para, int f_num, char **f_value, char **f_name)$/;"	f
+child	cJSON.h	/^	struct cJSON *child;		\/* An array or object item will have a child pointer pointing to a chain of the items in the array\/object. *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+cjson_from_config_to_sharemem	json_function.c	/^char cjson_from_config_to_sharemem(void)$/;"	f
+cmd	task_ttys2_dtu_web.h	/^		unsigned char cmd ;$/;"	m	struct:__anon1::__anon2
+control_dev_by_time	task_ttys1_zigbee_dev.c	/^char  control_dev_by_time(int fd)$/;"	f
+create_dic	sqlite3.c	/^int create_dic(int sqlitefd, sqlite3 **db)$/;"	f
+create_reference	cJSON.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+create_sqlite3	sqlite3.c	/^void create_sqlite3(void)$/;"	f
+data	sqlite3.c	/^char all[320] = {'\\0'}, time_all[24] = {'\\0'}, data[300] = {'\\0'};$/;"	v
+db	sqlite3.c	/^sqlite3 *db;$/;"	v
+ep	cJSON.c	/^static const char *ep;$/;"	v	file:
+err	sqlite3.c	/^char *err;$/;"	v
+fd_ttys2	task_ttys2_dtu_web.c	/^int fd_ttys2, nset;$/;"	v
+file_json_decode	json_function.c	/^void file_json_decode(cJSON *json)$/;"	f
+firstByteMark	cJSON.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+flag_lost_connect_to_web	task_ttys2_dtu_web.c	/^unsigned char flag_lost_connect_to_web = 2; \/\/ formal $/;"	v
+free_fn	cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+function_Cmd_Del_Dpcontrol_V3	task_ttys2_dtu_web.c	/^int function_Cmd_Del_Dpcontrol_V3(char buf[],  int len)$/;"	f
+function_Cmd_Set_Dpcontrol_V3	task_ttys2_dtu_web.c	/^int function_Cmd_Set_Dpcontrol_V3(char buf[],int len, int *controllerid, int *devid)$/;"	f
+function_for_launcher	launcher.c	/^int  function_for_launcher(void)$/;"	f
+getNodeset	task_ttys2_dtu_web.c	/^xmlXPathObjectPtr getNodeset(xmlDocPtr pdoc,const xmlChar *xpath)$/;"	f
+get_data_from_sqlite_to_web	sqlite3.c	/^char get_data_from_sqlite_to_web(int fd)$/;"	f
+get_fp	log.c	/^static FILE *get_fp(void)$/;"	f	file:
+get_now_time	sqlite3.c	/^char get_now_time(char *time_buf,int len)$/;"	f
+get_sqlite3_serial_max	sqlite3.c	/^void get_sqlite3_serial_max(void)$/;"	f
+get_time_stamp	log.c	/^static int get_time_stamp(char *buf, int length)$/;"	f	file:
+get_time_val_diff	task_ttys1_zigbee_dev.c	/^int get_time_val_diff(struct timeval *time_begin, struct timeval *time_end)$/;"	f
+header1	task_ttys2_dtu_web.h	/^		unsigned char header1 ;$/;"	m	struct:__anon1::__anon2
+header2	task_ttys2_dtu_web.h	/^		unsigned char header2 ;$/;"	m	struct:__anon1::__anon2
+id	task_ttys2_dtu_web.h	/^		unsigned char id ;$/;"	m	struct:__anon1::__anon2
+init_stack	main.c	/^void init_stack(void)$/;"	f
+jsonroot	task_ttys2_dtu_web.c	/^cJSON *jsonroot = NULL;$/;"	v
+lanucher_is_update_fw_exist	launcher.c	/^static int lanucher_is_update_fw_exist(void)$/;"	f	file:
+launcher_backup_update_fw	launcher.c	/^static int launcher_backup_update_fw(void)$/;"	f	file:
+launcher_decompress_update_fw	launcher.c	/^static int launcher_decompress_update_fw(void)$/;"	f	file:
+launcher_load_main	launcher.c	/^static int launcher_load_main(void)$/;"	f	file:
+launcher_replace_system	launcher.c	/^static int launcher_replace_system(void)$/;"	f	file:
+len_h	task_ttys2_dtu_web.h	/^		unsigned char len_h ;$/;"	m	struct:__anon1::__anon2
+len_l	task_ttys2_dtu_web.h	/^		unsigned char len_l ;$/;"	m	struct:__anon1::__anon2
+log_dst	log.c	/^static int 			log_dst = LOG_DST_TERM | LOG_DST_FILE;$/;"	v	file:
+log_file_dir	log.c	/^static const char  	*log_file_dir = ".\/";$/;"	v	file:
+log_level	log.h	/^enum log_level {$/;"	g
+log_mutex	log.c	/^pthread_mutex_t 	log_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+log_to_file	log.c	/^static int log_to_file(enum log_level level, const char *tag, const char *format, va_list ap)$/;"	f	file:
+log_to_terminal	log.c	/^static int log_to_terminal(enum log_level level, const char *tag, const char *format, va_list ap)$/;"	f	file:
+main	main.c	/^int main(int argc, char* argv[])$/;"	f
+malloc_fn	cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+mark	sqlite3.c	/^char mark[350] = {'\\0'};$/;"	v
+next	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+nset	task_ttys2_dtu_web.c	/^int fd_ttys2, nset;$/;"	v
+parse_array	cJSON.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_hex4	cJSON.c	/^static unsigned parse_hex4(const char *str)$/;"	f	file:
+parse_number	cJSON.c	/^const char *parse_number(cJSON *item,const char *num)$/;"	f
+parse_object	cJSON.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_string	cJSON.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_value	cJSON.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+prev	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::
+print_array	cJSON.c	/^static char *print_array(cJSON *item,int depth,int fmt)$/;"	f	file:
+print_number	cJSON.c	/^static char *print_number(cJSON *item)$/;"	f	file:
+print_object	cJSON.c	/^static char *print_object(cJSON *item,int depth,int fmt)$/;"	f	file:
+print_string	cJSON.c	/^static char *print_string(cJSON *item)	{return print_string_ptr(item->valuestring);}$/;"	f	file:
+print_string_ptr	cJSON.c	/^static char *print_string_ptr(const char *str)$/;"	f	file:
+print_value	cJSON.c	/^static char *print_value(cJSON *item,int depth,int fmt)$/;"	f	file:
+pthread_mutex_this	json_function.c	/^static pthread_mutex_t pthread_mutex_this = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+pthread_mutex_ttys2_this	task_ttys2_dtu_web.c	/^static pthread_mutex_t pthread_mutex_ttys2_this = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+res_str_system_dir	launcher.c	/^const char res_str_system_dir[] =$/;"	v
+res_str_system_old_path	launcher.c	/^const char res_str_system_old_path[] =$/;"	v
+res_str_system_system_path	launcher.c	/^const char res_str_system_system_path[] =$/;"	v
+res_str_update_dir	launcher.c	/^const char res_str_update_dir[] =$/;"	v
+res_str_update_fw_unzip_path	launcher.c	/^const char res_str_update_fw_unzip_path[] =$/;"	v
+res_str_update_fw_zip_normal_path	launcher.c	/^const char res_str_update_fw_zip_normal_path[] =$/;"	v
+res_str_update_fw_zip_sync_path	launcher.c	/^const char res_str_update_fw_zip_sync_path[] =$/;"	v
+res_str_update_fw_zip_tmp_path	launcher.c	/^const char res_str_update_fw_zip_tmp_path[] =$/;"	v
+save_data_to_sqlite	sqlite3.c	/^char save_data_to_sqlite(void)$/;"	f
+send_data_to_web_on_time	task_ttys2_dtu_web.c	/^void send_data_to_web_on_time(void)$/;"	f
+send_data_to_web_on_time_use_json_collector	json_function.c	/^char send_data_to_web_on_time_use_json_collector(char *buf, int *len)$/;"	f
+send_data_to_web_on_time_use_json_transformer	json_function.c	/^char send_data_to_web_on_time_use_json_transformer(char *buf, int *len)$/;"	f
+send_just_for_transform	task_ttys1_zigbee_dev.c	/^unsigned char send_just_for_transform(char *buf, int len) \/\/ todo 0630$/;"	f
+send_sqlite_data_to_web	task_ttys2_dtu_web.c	/^void send_sqlite_data_to_web(void)$/;"	f
+serialmax	sqlite3.c	/^unsigned int serialmax = 0, serialmin = 0;$/;"	v
+serialmin	sqlite3.c	/^unsigned int serialmax = 0, serialmin = 0;$/;"	v
+serialnumber	sqlite3.c	/^unsigned int serialnumber = 1;$/;"	v
+set_opt	tty.c	/^int set_opt(int fd,int nSpeed, int nBits, char nEvent, int nStop)$/;"	f
+skip	cJSON.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+sqlitefd	sqlite3.c	/^int sqlitefd;$/;"	v
+string	cJSON.h	/^	char *string;				\/* The item's name string, if this item is the child of, or is in the list of subitems of an object. *\/$/;"	m	struct:cJSON
+suffix_object	cJSON.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+system_init	main.c	/^int system_init(void)$/;"	f
+thread_Task_TTYS1_Zigbee_Dev	task_ttys1_zigbee_dev.c	/^static void *thread_Task_TTYS1_Zigbee_Dev(void *data)$/;"	f	file:
+thread_Task_TTYS2_Dtu_Web	task_ttys2_dtu_web.c	/^static void *thread_Task_TTYS2_Dtu_Web(void *data)$/;"	f	file:
+thread_launcher	launcher.c	/^static void *thread_launcher(void *data)$/;"	f	file:
+time_all	sqlite3.c	/^char all[320] = {'\\0'}, time_all[24] = {'\\0'}, data[300] = {'\\0'};$/;"	v
+type	cJSON.h	/^	int type;					\/* The type of the item, as above. *\/$/;"	m	struct:cJSON
+valuedouble	cJSON.h	/^	double valuedouble;			\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valueint	cJSON.h	/^	int valueint;				\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valuestring	cJSON.h	/^	char *valuestring;			\/* The item's string, if type==cJSON_String *\/$/;"	m	struct:cJSON
+xh_log	log.c	/^int xh_log(enum log_level level, const char *tag, const char *format, ...)$/;"	f
+xh_log_dst_disable	log.c	/^int xh_log_dst_disable(int dest)$/;"	f
